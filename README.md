@@ -26,5 +26,5 @@ and restart the zookeeper and kafka broker.
 ```
 7. Start Kafka consumer
 ```
-.\kafka-console-producer.bat --topic test1 --bootstrap-server localhost:9092 --from-beginning
+.\kafka-console-consumer.bat --topic test1 --bootstrap-server localhost:9092 --from-beginning
 ```
